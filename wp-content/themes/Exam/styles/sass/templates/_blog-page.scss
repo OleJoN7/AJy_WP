@@ -1,0 +1,108 @@
+.blog-title {
+  .title-block {
+    padding: 90px 0;
+    text-align: center;
+    opacity: 1;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    @include font(30px, "RObotoB");
+  }
+}
+
+.blog-wrap {
+  padding-top: 65px;
+  .post-text {
+    .post-title {
+      @include font(16px, 'RobotoB');
+      display: block;
+      color: #000;
+      text-align: left;
+      padding: 15px 15px 0;
+      transition: .25s all linear;
+    }
+  }
+  .posts-block {
+    flex-basis: 70%;
+    overflow: hidden;
+    .post {
+      width: calc(100% / 2);
+      float: left;
+      padding: 0 30px 30px 0;
+    }
+    .post-text {
+      border: 1px solid #a1a1a1;
+      border-top: none;
+      .post-date {
+        border-top: 1px solid #a1a1a1;
+      }
+    }
+    p {
+      padding: 15px;
+      @include font(12px, "RobotoR");
+      line-height: 17px;
+    }
+  }
+  .sidebar-block {
+    flex-basis: 30%;
+    .widgets-block {
+      background: #004966;
+    }
+  }
+  .post-img {
+    height: 270px;
+    background: #004966;
+    position: relative;
+    overflow: hidden;
+    a {
+      height: 270px;
+      display: block;
+    }
+    &:after {
+      display: block;
+      width: 50px;
+      height: 50px;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #fff url('images/simple-arrow.png') 50% no-repeat;
+      transition: .25s all linear;
+    }
+  }
+  .post-date {
+    text-align: center;
+    background: url('images/date-icon.png') 30% 50% no-repeat;
+  }
+  .post:hover .post-img:after {
+    background-image: url('images/red-arrow.png');
+  }
+  .post:hover .post-title {
+    color: #ff4848;
+  }
+}
+
+.slider-section {
+  background: #ff4848;
+  padding-bottom: 50px;
+  header {
+    padding: 50px 0 40px;
+  }
+  #lightSlider {
+    display: flex;
+    align-items: center;
+    height:auto !important;
+  }
+  .lSSlideOuter .lightSlider li {
+    padding: 0 20px;
+  }
+}
+
+.featured-header h2 {
+  text-align: center;
+  color: #fff;
+  @include font(24px, "RobotoL");
+}
+
+.lSpg {
+  display: none;
+}

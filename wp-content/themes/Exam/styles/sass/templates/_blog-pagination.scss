@@ -1,0 +1,36 @@
+.pagination-block-wrap {
+  padding-bottom: 70px;
+  .pagination-block {
+    text-align: left;
+    .page-numbers {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      background: #ff4848;
+      color: #fff;
+      width: 45px;
+      height: 45px;
+      margin-right: 15px;
+      @include font(24px, "RobotoB");
+      line-height: 45px;
+      opacity: .85;
+      transition: .25s all linear;
+      &:hover {
+        opacity: 1;
+      }
+      &:active {
+        color: #000;
+      }
+    }
+    .dots {
+      background: transparent;
+      color: #000;
+      @include font(30px, "RobotoB");
+      vertical-align: bottom;
+      line-height: 65px;
+    }
+    .current {
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.main-nav {
+  background: #2c3e50;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.navbar-brand .custom-logo-link {
+  display: inline-block;
+  width: 127px;
+  height: 53px;
+}
+
+.navbar-toggler-right {
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+}
+
+.navbar-nav li {
+  margin-left: 1em;
+  @include font(18px, "RObotoR");
+  text-align: center;
+}
+
+.active a {
+  color: #ff4848 !important;
+}

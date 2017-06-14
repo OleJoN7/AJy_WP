@@ -1,0 +1,446 @@
+# Translation of Plugins - Customize Posts - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Customize Posts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-30 06:21:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Customize Posts - Stable (latest release)\n"
+
+#: php/class-wp-customize-posts-preview.php:1348
+msgid "The %s param has been removed from the partial schema. Consider fallback_dependent_selector if needed."
+msgstr "The %s param has been removed from the partial schema. Consider fallback_dependent_selector if needed."
+
+#. Author URI of the plugin/theme
+msgid "https://make.xwp.co/"
+msgstr "https://make.xwp.co/"
+
+#. Author of the plugin/theme
+msgid "XWP"
+msgstr "XWP"
+
+#. Description of the plugin/theme
+msgid "Manage posts and postmeta via the Customizer. Works best in conjunction with the <a href=\"https://wordpress.org/plugins/customize-setting-validation/\">Customize Setting Validation</a> plugin."
+msgstr "Manage posts and postmeta via the Customizer. Works best in conjunction with the <a href=\"https://wordpress.org/plugins/customize-setting-validation/\">Customize Setting Validation</a> plugin."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/xwp/wp-customize-posts/"
+msgstr "https://github.com/xwp/wp-customize-posts/"
+
+#: php/theme-support/class-customize-posts-twenty-sixteen-support.php:100
+msgid "Page"
+msgstr "Page"
+
+#: php/theme-support/class-customize-posts-twenty-sixteen-support.php:96
+msgid "Pages:"
+msgstr "Pages:"
+
+#: php/theme-support/class-customize-posts-twenty-eleven-support.php:81
+#: php/theme-support/class-customize-posts-twenty-ten-support.php:83
+#: php/theme-support/class-customize-posts-twenty-twelve-support.php:80
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: php/theme-support/class-customize-posts-twenty-eleven-support.php:77
+#: php/theme-support/class-customize-posts-twenty-ten-support.php:79
+#: php/theme-support/class-customize-posts-twenty-twelve-support.php:76
+msgid "About %s"
+msgstr "About %s"
+
+#: php/class-wp-customize-posts.php:1698
+msgid "No results found."
+msgstr "No results found."
+
+#: php/class-wp-customize-posts.php:1435
+msgid "Failed to create setting"
+msgstr "Failed to create setting"
+
+#: php/class-wp-customize-posts.php:1414
+msgid "%1$s could not be created: %2$s"
+msgstr "%1$s could not be created: %2$s"
+
+#: php/class-wp-customize-posts.php:1407
+msgid "Post"
+msgstr "Post"
+
+#: php/class-wp-customize-posts.php:1242
+msgid "Unknown post type"
+msgstr "Unknown post type"
+
+#: php/class-wp-customize-posts.php:1057
+msgid "Override"
+msgstr "Override"
+
+#: php/class-wp-customize-posts.php:1043
+msgid "Trashed"
+msgstr "Binned"
+
+#. translators: %s is a placeholder for the Underscore template var
+#: php/class-wp-customize-posts.php:1037
+msgid "This is scheduled for publishing in about %s days."
+msgstr "This is scheduled for publishing in about %s days."
+
+#. translators: %s is a placeholder for the Underscore template var
+#: php/class-wp-customize-posts.php:1032
+msgid "This is scheduled for publishing in about %s hours."
+msgstr "This is scheduled for publishing in about %s hours."
+
+#. translators: %s is a placeholder for the Underscore template var
+#: php/class-wp-customize-posts.php:1027
+msgid "This is scheduled for publishing in about %s minutes."
+msgstr "This is scheduled for publishing in about %s minutes."
+
+#: php/class-wp-customize-posts.php:1023
+msgid "This is scheduled for publishing in about a minute."
+msgstr "This is scheduled for publishing in about a minute."
+
+#: php/class-wp-customize-posts.php:1016
+msgid "Create New Page"
+msgstr "Create New Page"
+
+#: php/class-wp-customize-posts.php:1013
+msgid "Edit Selected Page"
+msgstr "Edit Selected Page"
+
+#: php/class-wp-customize-posts.php:1005
+msgid "Preview"
+msgstr "Preview"
+
+#: php/class-wp-customize-posts.php:935
+msgid "Resize Editor"
+msgstr "Resize Editor"
+
+#. translators: %s post type
+#: php/class-wp-customize-posts.php:851
+msgid "Jump to %s"
+msgstr "Jump to %s"
+
+#: php/class-wp-customize-posts.php:846
+msgid "Customize Object Selector"
+msgstr "Customise Object Selector"
+
+#: php/class-wp-customize-posts.php:842
+msgid "This control depends on having the %s plugin installed and activated."
+msgstr "This control depends on having the %s plugin installed and activated."
+
+#: php/class-wp-customize-posts.php:840
+msgid "Failed to create for editing."
+msgstr "Failed to create for editing."
+
+#: php/class-wp-customize-posts.php:839
+msgid "Failed to open for editing."
+msgstr "Failed to open for editing."
+
+#: php/class-wp-customize-posts.php:838
+msgid "You are currently editing the page that shows your latest posts."
+msgstr "You are currently editing the page that shows your latest posts."
+
+#. translators: %s is the trashed page name
+#: php/class-wp-customize-posts.php:837
+msgid "%s (Unpublished)"
+msgstr "%s (Unpublished)"
+
+#. translators: %s is the trashed page name
+#: php/class-wp-customize-posts.php:835
+msgid "%s (Trashed)"
+msgstr "%s (Binned)"
+
+#: php/class-wp-customize-posts.php:832
+msgid "Close Editor"
+msgstr "Close Editor"
+
+#: php/class-wp-customize-posts.php:830
+msgid "Their change: %s"
+msgstr "Their change: %s"
+
+#: php/class-wp-customize-posts.php:829
+msgid "(no title)"
+msgstr "(no title)"
+
+#: php/class-wp-customize-posts.php:828
+msgid "Order"
+msgstr "Order"
+
+#: php/class-wp-customize-posts.php:827
+msgid "Parent"
+msgstr "Parent"
+
+#: php/class-wp-customize-posts.php:826
+msgid "Author"
+msgstr "Author"
+
+#: php/class-wp-customize-posts.php:825
+msgid "Discussion"
+msgstr "Discussion"
+
+#: php/class-wp-customize-posts.php:824
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: php/class-wp-customize-posts.php:823
+msgid "Content"
+msgstr "Content"
+
+#: php/class-wp-customize-posts.php:822
+msgid "Date"
+msgstr "Date"
+
+#: php/class-wp-customize-posts.php:821
+msgid "Status"
+msgstr "Status"
+
+#: php/class-wp-customize-posts.php:820
+msgid "Slug"
+msgstr "Slug"
+
+#: php/class-wp-customize-posts.php:819
+msgid "Title"
+msgstr "Title"
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the
+#. section title in the Customizer
+#: php/class-wp-customize-posts.php:818
+msgid "Customizing &#9656; %s"
+msgstr "Customising &#9656; %s"
+
+#. translators: 1: month number, 2: month abbreviation
+#: php/class-wp-customize-posts.php:683
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: php/class-wp-customize-posts.php:658
+msgctxt "user dropdown"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: php/class-wp-customize-posts.php:633
+msgid "Trash"
+msgstr "Bin"
+
+#: php/class-wp-customize-featured-image-controller.php:111
+msgid "Default"
+msgstr "Default"
+
+#: php/class-wp-customize-featured-image-controller.php:110
+msgid "Change Image"
+msgstr "Change Image"
+
+#: php/class-customize-posts-plugin.php:223
+msgid "Customize Posts requires WordPress 4.5-beta2 and should have the Customize Setting Validation plugin active."
+msgstr "Customize Posts requires WordPress 4.5-beta2 and should have the Customize Setting Validation plugin active."
+
+#. Plugin Name of the plugin/theme
+msgid "Customize Posts"
+msgstr "Customize Posts"
+
+#: php/class-wp-customize-posts.php:629
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#: php/class-wp-customize-posts.php:625
+msgid "Published"
+msgstr "Published"
+
+#: php/class-wp-customize-posts.php:621
+msgid "Private"
+msgstr "Private"
+
+#: php/class-wp-customize-posts.php:617
+msgid "Pending Review"
+msgstr "Pending Review"
+
+#: php/class-wp-customize-posts.php:613
+msgid "Draft"
+msgstr "Draft"
+
+#: php/class-wp-customize-posts.php:398
+msgid "Posts page"
+msgstr "Posts page"
+
+#: php/class-wp-customize-posts.php:377
+msgid "Front page"
+msgstr "Front page"
+
+#: php/class-wp-customize-posts.php:362
+msgid "A static page"
+msgstr "A static page"
+
+#: php/class-wp-customize-posts.php:361
+msgid "Your latest posts"
+msgstr "Your latest posts"
+
+#: php/class-wp-customize-posts.php:357
+msgid "Front page displays"
+msgstr "Front page displays"
+
+#: php/class-wp-customize-posts.php:340
+msgid "Your theme supports a static front page."
+msgstr "Your theme supports a static front page."
+
+#: php/class-wp-customize-posts.php:338
+msgid "Static Front Page"
+msgstr "Static Front Page"
+
+#: php/class-wp-customize-posts.php:223
+msgid "Pages are ordered and organized hierarchically instead of being listed by date. The organization of pages generally corresponds to the primary nav menu."
+msgstr "Pages are ordered and organised hierarchically instead of being listed by date. The organisation of pages generally corresponds to the primary nav menu."
+
+#: php/class-wp-customize-posts.php:220
+msgid "Posts are entries listed in reverse chronological order, usually on the site homepage or on a dedicated posts page. Posts can be organized by tags or categories."
+msgstr "Posts are entries listed in reverse chronological order, usually on the site homepage or on a dedicated posts page. Posts can be organised by tags or categories."
+
+#: php/class-wp-customize-posts-preview.php:316
+msgid "The %s argument for get_pages() is not supported by Customize Posts."
+msgstr "The %s argument for get_pages() is not supported by Customize Posts."
+
+#: php/class-wp-customize-posts-panel.php:96
+msgid "(No title)"
+msgstr "(No title)"
+
+#: php/class-wp-customize-posts-panel.php:83
+msgid "Loading &ldquo;{{ data.text }}&rdquo;&hellip;"
+msgstr "Loading &ldquo;{{ data.text }}&rdquo;&hellip;"
+
+#: php/class-wp-customize-postmeta-setting.php:197
+msgid "Update to post meta \"%s\" blocked."
+msgstr "Update to post meta \"%s\" blocked."
+
+#: php/class-wp-customize-postmeta-setting.php:171
+msgid "Expected array value for non-single \"%s\" meta."
+msgstr "Expected array value for non-single \"%s\" meta."
+
+#: php/class-wp-customize-post-status-control.php:89
+msgid "Undo Trash"
+msgstr "Undo Bin"
+
+#: php/class-wp-customize-post-status-control.php:88
+msgid "Move to Trash"
+msgstr "Move to Bin"
+
+#: php/class-wp-customize-post-setting.php:393
+#: php/class-wp-customize-posts.php:833
+msgid "Whoops, the provided date is invalid."
+msgstr "Whoops, the provided date is invalid."
+
+#: php/class-wp-customize-post-setting.php:348
+msgid "Content, title, and excerpt are empty."
+msgstr "Content, title, and excerpt are empty."
+
+#: php/class-wp-customize-post-setting.php:326
+msgid "Conflict due to concurrent post update by %s."
+msgstr "Conflict due to concurrent post update by %s."
+
+#: php/class-wp-customize-post-setting.php:307
+#: php/class-wp-customize-post-setting.php:327
+msgid "(unknown user)"
+msgstr "(unknown user)"
+
+#: php/class-wp-customize-post-setting.php:306
+msgid "Post is currently locked by %s."
+msgstr "Post is currently locked by %s."
+
+#. translators: %s: post title
+#: php/class-wp-customize-post-field-partial.php:225
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+
+#: php/class-wp-customize-post-field-partial.php:149
+#: php/class-wp-customize-posts-preview.php:232
+msgid "Private: %s"
+msgstr "Private: %s"
+
+#: php/class-wp-customize-post-field-partial.php:145
+#: php/class-wp-customize-posts-preview.php:227
+msgid "Protected: %s"
+msgstr "Protected: %s"
+
+#: php/class-wp-customize-post-editor-control.php:70
+#: php/class-wp-customize-posts.php:831
+msgid "Open Editor"
+msgstr "Open Editor"
+
+#: php/class-wp-customize-post-discussion-fields-control.php:72
+msgid "Allow trackbacks and pingbacks on this page."
+msgstr "Allow trackbacks and pingbacks on this page."
+
+#: php/class-wp-customize-post-discussion-fields-control.php:55
+msgid "Allow comments."
+msgstr "Allow comments."
+
+#: php/class-wp-customize-post-date-control.php:134
+msgid "Minute"
+msgstr "Minute"
+
+#: php/class-wp-customize-post-date-control.php:129
+msgid "Hour"
+msgstr "Hour"
+
+#: php/class-wp-customize-post-date-control.php:124
+msgid "Year"
+msgstr "Year"
+
+#: php/class-wp-customize-post-date-control.php:119
+msgid "Day"
+msgstr "Day"
+
+#: php/class-wp-customize-post-date-control.php:105
+msgid "Month"
+msgstr "Month"
+
+#. translators: %s: UTC offset
+#: php/class-wp-customize-post-date-control.php:87
+msgid "Timezone is %s."
+msgstr "Timezone is %s."
+
+#. translators: 1: timezone name, 2: timezone abbreviation, 3: gmt offset
+#: php/class-wp-customize-post-date-control.php:81
+msgid "Timezone is %1$s (%2$s), currently %3$s."
+msgstr "Timezone is %1$s (%2$s), currently %3$s."
+
+#: php/class-wp-customize-post-date-control.php:68
+msgid "Reset"
+msgstr "Reset"
+
+#: php/class-wp-customize-page-template-controller.php:115
+msgid "The page template is invalid."
+msgstr "The page template is invalid."
+
+#: php/class-wp-customize-page-template-controller.php:73
+msgid "(Default)"
+msgstr "(Default)"
+
+#: php/class-wp-customize-page-template-controller.php:51
+msgid "Page Template"
+msgstr "Page Template"
+
+#: php/class-wp-customize-featured-image-controller.php:408
+msgid "The attachment is invalid."
+msgstr "The attachment is invalid."
+
+#: php/class-wp-customize-featured-image-controller.php:254
+msgid "Note: The chosen image will not persist until you save."
+msgstr "Note: The chosen image will not persist until you save."
+
+#: php/class-wp-customize-featured-image-controller.php:177
+msgid "Error: Invalid attachment selected."
+msgstr "Error: Invalid attachment selected."
+
+#: php/class-wp-customize-featured-image-controller.php:114
+msgid "Select Image"
+msgstr "Select Image"
+
+#: php/class-wp-customize-featured-image-controller.php:113
+msgid "Remove"
+msgstr "Remove"
+
+#: php/class-wp-customize-featured-image-controller.php:112
+msgid "No image selected"
+msgstr "No image selected"
+
+#: php/class-wp-customize-posts-panel.php:91
+msgid "[Trashed]"
+msgstr "[Binned]"

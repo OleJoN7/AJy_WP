@@ -1,0 +1,217 @@
+.welcome-section {
+  background: #ff4848;
+  position: relative;
+  padding-bottom: 70px;
+  min-height: 100vh;
+  color: #fff;
+  h2 {
+    @include font(60px, "RobotoB");
+    padding-bottom: 45px;
+  }
+  .about-us-heading {
+    @include font(48px, "RobotoR");
+  }
+  .abous-us-sub-text {
+    @include font(24px, "RobotoR");
+    padding-bottom: 45px;
+  }
+  p:last-child {
+    @include font(24px, "RobotoR");
+    padding-bottom: 20px;
+  }
+  .welcome-wrap {
+    padding: 100px 0;
+    .img-welcome-wrap {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .scroll-icon {
+    border: none;
+    display: inline-block;
+    width: 26px;
+    height: 7px;
+    background: transparent url('./images/scroll.png') 50% no-repeat;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}
+
+.man-section {
+  padding-top: 50px;
+  h2 {
+    padding-bottom: 45px;
+    a {
+      text-transform: uppercase;
+      @include font(36px, "RobotoB");
+      color: #004966;
+      transition: .3s all linear;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .img-man-wrap {
+    text-align: center;
+    align-self: flex-end;
+    span {
+      width: 338px;
+      height: 507px;
+      display: inline-block;
+    }
+  }
+  .man-description {
+    padding-top: 110px;
+    p {
+      line-height: 24px;
+      @include font(18px, "RobotoR");
+      color: #004966;
+    }
+  }
+}
+
+.offer-section {
+  background: #004966;
+  padding: 100px 0;
+  color: #fff;
+  .offer-header {
+    text-align: center;
+  }
+  .offer-post {
+    text-align: center;
+  }
+  .offer-icon {
+    width: 133px;
+    height: 133px;
+    margin: 0 auto 40px;
+  }
+  header h2 {
+    padding-bottom: 40px;
+    @include font(36px, "RobotoL");
+  }
+  header p {
+    @include font(18px, "RobotoR");
+    color: #fff;
+    padding: 0 60px 90px;
+  }
+  .offer-description {
+    h3 {
+      @include font(30px, "RobotoB");
+      padding-bottom: 20px;
+    }
+    article {
+      p {
+        @include font(18px, "RobotoR");
+        color: #fff;
+      }
+    }
+  }
+}
+
+.works-section {
+  padding: 90px 0 105px;
+  header {
+    text-align: center;
+    h2 {
+      padding-bottom: 25px;
+      @include font(36px, "RobotoL");
+    }
+  }
+  p {
+    padding: 0 60px 50px;
+    @include font(18px, "RobotoR");
+  }
+  .portfolio-post {
+    padding-bottom: 30px;
+  }
+  .works-list {
+    padding-bottom: 30px;
+    li {
+      margin: 0 10px;
+    }
+    button {
+      border: none;
+      background: transparent;
+      @include font(30px, "RobotoL");
+      transition: .3s all linear;
+      border-bottom: 2px solid transparent;
+      &:hover {
+        color: #ff4848;
+        border-bottom: 2px solid #ff4848;
+      }
+    }
+  }
+}
+
+.is-checked {
+  color: #ff4848;
+  border-bottom: 2px solid #ff4848 !important;
+}
+
+.contact-section {
+  padding-top: 100px;
+  @include font(18px, "RobotoL");
+  color: #fff;
+  line-height: 24px;
+  li {
+    padding-bottom: 20px;
+  }
+  .contact-info-block, .contact-form-block {
+    flex-basis: 50%;
+  }
+  .contact-info-block {
+    margin-right: 30px;
+  }
+  .contact-heading {
+    @include font(36px, "RobotoL");
+    padding-bottom: 35px;
+  }
+  .telephone {
+    padding-left: 45px;
+    background: url('./images/phone.png') 0 0 no-repeat;
+  }
+  .address {
+    padding-left: 45px;
+    background: url('./images/marker.png') 0 0 no-repeat;
+  }
+  .contact-form-list input, .contact-form-list textarea {
+    width: 100%;
+    padding: 15px 0 15px 20px;
+    @include font(18px, "RobotoL");
+    color: #777;
+  }
+  .contact-form-list textarea {
+    height: 310px;
+    margin-bottom: 55px;
+  }
+  .contact-form-list .form-button {
+    @include font(24px, "RobotoB");
+    display: inline-block;
+    width: auto;
+    border: none;
+    padding: 0 60px;
+    line-height: 50px;
+    background: #ff4848;
+    opacity: .85;
+    transition: .25s all linear;
+    color: #fff;
+    margin-bottom: 55px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  #googleMap {
+    width: 100%;
+    height: 390px;
+    border: 0;
+  }
+}
+
+
+
+
+
+

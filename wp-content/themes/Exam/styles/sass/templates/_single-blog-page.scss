@@ -1,0 +1,64 @@
+.single-blog-wrap {
+  padding: 65px 0 120px;
+  .post-text {
+    border: 1px solid #ccc;
+    padding-right: 25px;
+    margin-bottom: 70px;
+    padding-left: 1em;
+    h3 {
+      @include font(18px, "RobotoB");
+      color: #d35400;
+      padding: 1em 0 2.5em;
+    }
+    .single-content p {
+      @include font(12px, "RobotoR");
+      padding-bottom: 2.7em;
+    }
+    .single-content .news-title {
+      @include font(18px, "RobotoB");
+      color: #f9690e;
+      padding-bottom: 2em;
+    }
+    .single-content .news-text {
+      @include font(14px, "RobotoI");
+    }
+  }
+  .posts-single-block {
+    flex-basis: 70%;
+    padding-right: 30px;
+    .post {
+      overflow: hidden;
+      .single-post-img-wrap {
+        width: 391px;
+        height: 343px;
+        float: left;
+        margin: 0 .8em 1.9em 0;
+        background: #ff4848;
+        position: relative;
+        img {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+    }
+  }
+  .sidebar-block {
+    flex-basis: 30%;
+    .widgets-block {
+      background: #004966;
+    }
+  }
+}
+
+.single-pagination a {
+  color: #ff4848;
+  @include font(24px, "RobotoB");
+  text-transform: uppercase;
+  opacity: .9;
+  transition: .3s all linear;
+  &:hover {
+    opacity: 1;
+  }
+}
