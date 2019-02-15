@@ -4,5 +4,6 @@ This project was created using Wordpress platform - In order to understand how t
 
 A bit of PHP practice and received more expierience in development.
 
-# This project was deployed on Pantheon service link below:
+This project was deployed on Pantheon service link below:
+
 # http://dev-oleg-aj.pantheonsite.io/
